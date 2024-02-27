@@ -5,20 +5,16 @@
 }
 @media(min-width:801px){
 	.question{
-		width:40%;
-		max-width:650px;
-	}
-}
-@media(min-width:600px) and (max-width:699px){
-	.question{
 		width:80%;
-		max-width:650px;
+		min-width:600px;
+		max-width:800px;
 	}
 }
-@media(min-width:700px) and (max-width:800px){
+@media(min-width:600px) and (max-width:800px){
 	.question{
-		width:70%;
-		max-width:650px;
+		width:90%;
+		min-width:600px;
+		max-width:800px;
 	}
 }
 
