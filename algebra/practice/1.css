@@ -1,17 +1,6 @@
-@media(max-width:799px){
-	.question{
-		width:100%;
-	}
-}
-@media(min-width:800px){
-	.question{
-		width:800px;
-	}
-}
-
 .question{
 	display:block;
-	float:left;
+	width:400px;
 }
 body {font-family:"Martel";}
 h1{text-align:center;font-size:1.4em;}
@@ -36,5 +25,5 @@ details>summary {
 }
 
 details>summary::-webkit-details-marker {
-	display: none;
+	: none;
 }
