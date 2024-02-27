@@ -1,24 +1,16 @@
-@media(max-width:599px){
+@media(max-width:799px){
 	.question{
 		width:100%;
 	}
 }
-@media(min-width:801px){
+@media(min-width:800px){
 	.question{
-		width:80%;
-		min-width:600px;
-		max-width:800px;
-	}
-}
-@media(min-width:600px) and (max-width:800px){
-	.question{
-		width:90%;
-		min-width:600px;
-		max-width:800px;
+		width:800px;
 	}
 }
 
 .question{
+	display:block;
 	float:left;
 }
 body {font-family:"Martel";}
