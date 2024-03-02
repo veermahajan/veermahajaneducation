@@ -1,0 +1,25 @@
+body {font-family:"Martel";}
+h1{text-align:center;font-size:1.4em;}
+details{margin:10px;user-select:none;}
+.dev{color:orange;font-weight: 800;}
+.test{display:flex;gap:10px;}
+a{color:blue;}
+li{font-weight:400;}
+.ans{
+	color:red;
+	font-weight:bolder;
+}
+.source{
+	text-decoration: underline;
+}
+details>summary {
+	list-style: none;
+	width:calc(100%-20);
+	background-color:orange;
+	border-radius:10px;
+	padding:10px;
+}
+
+details>summary::-webkit-details-marker {
+	: none;
+}
